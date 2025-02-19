@@ -13,6 +13,10 @@ namespace VariousTypes
         private const uint N6 = 9;
         private const long N7 = 100;
         private const ulong N8 = 98;
+        
+        //chars
+        private const char C1 = '\u00A9';
+        private const char C2 = '\u263A';
 
         private static void Main(string[] args)
         {
@@ -24,6 +28,9 @@ namespace VariousTypes
             Console.WriteLine(N6.ToString());
             Console.WriteLine(N7.ToString());
             Console.WriteLine(N8.ToString());
+            
+            Console.WriteLine(C1.ToString());
+            Console.WriteLine(C2.ToString());
         }
     }
 }
