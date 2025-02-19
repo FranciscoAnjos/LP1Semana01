@@ -21,6 +21,9 @@ namespace ManyStrings
 
         private static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+            
             Console.WriteLine(T1);
             Console.WriteLine(T2);
             Console.WriteLine(T3);
@@ -33,6 +36,12 @@ namespace ManyStrings
             Console.WriteLine(T10);
             Console.WriteLine(T11);
             Console.WriteLine(T12);
+            
+            Console.WriteLine($"{xx:F2}");
+            Console.WriteLine($"{xx:P1}");
+            
+            Console.WriteLine($"{ii:X}");
+            Console.WriteLine($"{ii:C}");
         }
     }
 }
