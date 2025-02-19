@@ -17,6 +17,10 @@ namespace VariousTypes
         //chars
         private const char C1 = '\u00A9';
         private const char C2 = '\u263A';
+        
+        //real numbers
+        private const float R1 = 3.14f;
+        private const double R2 = 3.14159;
 
         private static void Main(string[] args)
         {
@@ -31,6 +35,9 @@ namespace VariousTypes
             
             Console.WriteLine(C1.ToString());
             Console.WriteLine(C2.ToString());
+            
+            Console.WriteLine(R1.ToString());
+            Console.WriteLine(R2.ToString());
         }
     }
 }
