@@ -2,6 +2,9 @@
 
 namespace MeuPrograma
 {
+    /// <summary>
+    /// Class that prints some funny things to the console
+    /// </summary>
     public class Program
     {
         private static void Main(string[] args)
