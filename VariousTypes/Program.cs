@@ -21,6 +21,10 @@ namespace VariousTypes
         //real numbers
         private const float R1 = 3.14f;
         private const double R2 = 3.14159;
+        
+        //booleans
+        private const bool B1 = true;
+        private const bool B2 = false;
 
         private static void Main(string[] args)
         {
@@ -38,6 +42,9 @@ namespace VariousTypes
             
             Console.WriteLine(R1.ToString());
             Console.WriteLine(R2.ToString());
+            
+            Console.WriteLine(B1.ToString());
+            Console.WriteLine(B2.ToString());
         }
     }
 }
