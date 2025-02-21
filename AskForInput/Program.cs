@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.InteropServices;
 
 namespace AskForInput
 {
@@ -12,8 +14,8 @@ namespace AskForInput
             Console.WriteLine("Now insert a real number");
             string c = Console.ReadLine();
             float d = float.Parse(c);
-
-
+            float s = d + b;
+            Console.WriteLine($"The sum of your numbers is {s} ");
         }
     }
 }
