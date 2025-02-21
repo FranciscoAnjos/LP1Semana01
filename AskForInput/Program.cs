@@ -8,9 +8,8 @@ namespace AskForInput
         {
             Console.WriteLine("Please insert a whole number");
             string a = Console.ReadLine();
+            int b = int.Parse(a);
             
-
-
 
         }
     }
