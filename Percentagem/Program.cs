@@ -24,10 +24,10 @@ namespace Percentagem
             float n3m = n3a * 100;
             float n4m = n4a * 100;
 
-            Console.WriteLine($"  {n1m}%");
-            Console.WriteLine($"  {n2m}%");
-            Console.WriteLine($"  {n3m}%");
-            Console.WriteLine($"  {n4m}%");
+            Console.WriteLine($"{n1m}%");
+            Console.WriteLine($"{n2m}%");
+            Console.WriteLine($"{n3m}%");
+            Console.WriteLine($"{n4m}%");
 
 
         }
