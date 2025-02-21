@@ -11,6 +11,7 @@ namespace AskForInput
             int b = int.Parse(a);
             Console.WriteLine("Now insert a real number");
             string c = Console.ReadLine();
+            float d = float.Parse(c);
 
 
         }
